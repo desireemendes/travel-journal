@@ -1,5 +1,5 @@
 export default [
-    {
+    {   id: 1,
         title: "Cruise",
         location: "Honduras",
         googleMapsUrl: "https://goo.gl/maps/1odr82gpHHza7tYW9",
