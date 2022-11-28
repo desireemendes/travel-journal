@@ -1,4 +1,6 @@
 import './Entry.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 function Entry (props) {
 return (
@@ -7,14 +9,15 @@ return (
         <img className="travel-photo" src={props.imageUrl} alt={props.title} />
         </div>
         <div className="location">
+        <FontAwesomeIcon icon={faLocationDot} className="card--location-icon" />
+        <h2 className="card--location">{props.location}</h2>
         <a className="location-url" href={props.googleMapsUrl}>
           View on Google Maps
         </a>
-        <p id="title">{props.location}</p>
         </div>
-        <span>{props.startDate} - {props.endDate}</span>
-        <p>{props.title}</p>
-        <p>{props.description}</p>
+        <h3 className="entry-title">{props.title}</h3>
+        <p className='entry-date'>{props.startDate} - {props.endDate}</p>
+        <p className='entry-desc'>{props.description}</p>
        
     </section>
 )
