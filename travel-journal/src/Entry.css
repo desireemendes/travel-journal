@@ -1,0 +1,16 @@
+.travel-photo {
+    width: 20em;
+    object-fit: contain;
+    border-radius: 0.3em;
+    float: left;
+    align-self: flex-start;
+  }
+  
+.journal-entry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+

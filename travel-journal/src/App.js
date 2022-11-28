@@ -1,6 +1,7 @@
 import './App.css';
 import data from "./data"
 import Entry from './Entry';
+import Nav from './Nav';
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <h1>Travel Journal</h1>
+        <Nav />
       {journalEntries}
       </header>
     </div>
