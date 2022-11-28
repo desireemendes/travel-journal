@@ -9,8 +9,8 @@ return (
         <img className="travel-photo" src={props.imageUrl} alt={props.title} />
         </div>
         <div className="location">
-        <FontAwesomeIcon icon={faLocationDot} className="card--location-icon" />
-        <h2 className="card--location">{props.location}</h2>
+        <FontAwesomeIcon icon={faLocationDot} className="entry-location-icon" />
+        <h2 className="entry-location">{props.location}</h2>
         <a className="location-url" href={props.googleMapsUrl}>
           View on Google Maps
         </a>

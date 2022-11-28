@@ -3,7 +3,7 @@
     object-fit: contain;
     border-radius: 0.3em;
     float: left;
-    align-self: flex-start;
+    padding-left: 1em;
   }
   
 .journal-entry {
@@ -11,6 +11,14 @@
     flex-direction: column;
     align-items: center;
     padding: 2em 0;
+    /* display: flex;
+  flex-direction: column;
+  padding: 2em 0; */
+}
+
+.location {
+    margin-left: 1em;
+  padding: 0.5em;
 }
 
 .location #title {
@@ -19,4 +27,32 @@
 
 .location-url {
     color: grey;
+    font-size: 0.75rem;
 }
+
+  
+  .entry-location {
+    display: inline-block;
+    font-size: 0.75rem;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    margin: 0 1em 0 0.25em;
+  }
+
+  .entry-title {
+    font-size: 2rem;
+    margin: 0.25em 0;
+    font-weight: 600;
+  }
+
+  .entry-date {
+    font-weight: 700;
+  }
+
+  .entry-desc {
+    max-width: 50rem;
+    margin-top: 2em;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 150%;
+  }
