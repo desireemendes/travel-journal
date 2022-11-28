@@ -12,5 +12,6 @@
     align-items: center;
 }
 
-
-
+.location #title {
+    font-weight: 600;
+}
