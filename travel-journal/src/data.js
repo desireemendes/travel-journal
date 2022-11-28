@@ -1,6 +1,6 @@
 export default [
     {   id: 1,
-        title: "Cruise",
+        title: "Roatan",
         location: "Honduras",
         googleMapsUrl: "https://goo.gl/maps/1odr82gpHHza7tYW9",
         startDate: "21 Dec, 2021",
@@ -10,6 +10,17 @@ export default [
     },
     {
         key: 2,
+        title: "USA",
+        location: "Washington DC",
+        googleMapsUrl: "https://goo.gl/maps/AgkcKdXfnVpBSupx8",
+        startDate: "8 September, 2021",
+        endDate: "11 September, 2021",
+        description:
+          "The countrys capital city - a unique and historical place with things to do for everyone",
+        imageUrl: "https://images.unsplash.com/photo-1664755108058-41f5df02a497?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGdlb3JnZSUyMG1hc29uJTIwbWVtb3JpYWx8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60",
+      },
+    {
+        key: 3,
         title: "Sydney Opera House",
         location: "Australia",
         googleMapsUrl: "https://goo.gl/maps/681n4jdijgdt3uGS6",
@@ -20,7 +31,7 @@ export default [
         imageUrl: "https://images.unsplash.com/photo-1540448051910-09cfadd5df61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3lkbmV5JTIwb3BlcmElMjBob3VzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60",
       },
       {
-        key: 3,
+        key: 4,
         title: "Geirangerfjord",
         location: "Norway",
         googleMapsUrl: "https://goo.gl/maps/5J6KAPeSgM8CHQwB7",

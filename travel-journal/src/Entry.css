@@ -45,6 +45,10 @@
     font-weight: 600;
   }
 
+  .entry-location:hover {
+    color: orange;
+  }
+
   .entry-date {
     font-weight: 700;
   }
